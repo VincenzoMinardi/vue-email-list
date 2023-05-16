@@ -1,12 +1,14 @@
 html{
-    
+    background-image: url(../img/hacker-2883632_1280.jpg);
+    background-size: cover;
     text-align: center;
-    background-color: black;
+ 
 }
 
 li{
     list-style: none;
     font-size: 2rem;
+    
     
 }
 
@@ -22,6 +24,6 @@ button{
     top: 4rem;
     margin: auto;
    max-width: 600px;
-   background-color: chocolate;
+   background-color: greenyellow;
    border-radius: 2rem
 };
