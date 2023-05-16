@@ -13,11 +13,14 @@
 <body>
     <div id="app"> 
         <button @click="getRandomEmail">Cliccami per generare email</button>
-        <ul>
-            <li v-for="email in emailRandom">
-                {{email}}
-            </li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li v-for="email in emailRandom">
+                    {{email}}
+                </li>
+            </ul>
+        </div>
+
        
     </div>
    
