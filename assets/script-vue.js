@@ -15,6 +15,10 @@ const root = Vue.createApp({
 
         }
     },
+
+    created() {
+        this.getRandomEmail()
+    },
 });
 
 root.mount('#app')
