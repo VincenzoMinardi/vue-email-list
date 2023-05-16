@@ -15,7 +15,8 @@
         <button @click="getRandomEmail">Cliccami per generare email</button>
         <div class="container">
             <ul>
-                <li v-for="email in emailRandom">
+                <li v-if="emailRandom.length == 10" 
+                v-for="email in emailRandom">
                     {{email}}
                 </li>
             </ul>
